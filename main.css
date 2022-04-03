@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(247, 235, 235);
+    display: flex;
+}
+header>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    position: absolute;
+    right: 0;
+}
+header>h1{
+    margin: auto 5px;
+    color: rgb(153, 137, 137);
+}
+header>.search-div{
+    background-color: blue;
+    height: 30px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    right: 80px;    
+    box-sizing: border-box;
+}
+.search-div>input[type=text]{
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+}
+.search-div>input[type=button]{
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  cursor: pointer;
+}
+.banner{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+.app-rows{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(144, 209, 206);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.app-link{
+    text-decoration: none;
+    color: black;
+}
+
+.app-div{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.app-img{
+    width: 100%;
+    height: 80%;
+    background-color: pink;
+    border-radius: 20px 20px 0 0;
+}
+.app-name{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    text-align: center;    
+    border-radius: 0 0 20px 20px;
+}
